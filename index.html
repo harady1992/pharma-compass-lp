@@ -8,151 +8,142 @@
       name="description"
       content="同じ時代を生きる薬剤師と、本気で語れる場所を。若手薬剤師のための招待制未来予測コミュニティ、ファーマコンパス。"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260618-07" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;800;900&family=Noto+Serif+JP:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260619-01" />
   </head>
   <body>
     <main class="lp">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-ribbon">若手薬剤師の招待制未来予測コミュニティ</div>
-        <div class="brand">
+        <div class="hero__topline">若手薬剤師の招待制未来予測コミュニティ</div>
+
+        <div class="hero__brand" aria-label="ファーマコンパス">
           <img src="./assets/logo.png" alt="" />
           <span>ファーマコンパス</span>
         </div>
 
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <h1 id="hero-title" class="hero-title">
-              <span class="title-line title-line-top">
-                <span>同じ時代を生きる</span>
-                <span>薬剤師と、</span>
-              </span>
-              <span class="title-line title-line-core">
-                <em>本気</em><span>で語れる</span>
-              </span>
-              <span class="title-line title-line-place">場所を。</span>
-            </h1>
-            <p class="hero-sub">
-              <span>業界の未来を、</span>
-              <span>ホンネで話せる仲間はいますか？</span>
-            </p>
-            <p class="guest-note">元厚労省関係者や業界の経営者が<br class="sp" />続々と登壇予定！</p>
-          </div>
-
-          <div class="compass-visual" aria-hidden="true">
-            <div class="compass-ring"></div>
-            <div class="compass-line line-a"></div>
-            <div class="compass-line line-b"></div>
-            <div class="compass-needle needle-blue"></div>
-            <div class="compass-needle needle-gold"></div>
-            <div class="compass-center"></div>
-          </div>
-          <div class="pocket-compass" aria-hidden="true">
-            <div></div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="compass">
+            <span class="compass__ring"></span>
+            <span class="compass__needle"></span>
+            <span class="compass__needle compass__needle--gold"></span>
+            <span class="compass__center"></span>
           </div>
         </div>
 
-        <div class="menu-panel" aria-label="ファーマコンパス公式LINEでつながると">
-          <p>ファーマコンパス公式LINEでつながると…</p>
-          <div class="menu-grid">
-            <article>
-              <span class="menu-icon icon-seminar"></span>
-              <small>毎月開催</small>
-              <b>セミナー</b>
-              <span>TAP HERE</span>
-            </article>
-            <article>
-              <span class="menu-icon icon-event"></span>
-              <small>毎月開催</small>
-              <b>イベント</b>
-              <span>TAP HERE</span>
-            </article>
-            <article>
-              <span class="menu-icon icon-line"></span>
-              <small>最新情報をお届け</small>
-              <b>公式LINE</b>
-              <span>TAP HERE</span>
-            </article>
-            <article>
-              <span class="menu-icon icon-compass"></span>
-              <b>ファーマコンパス<br />とは？</b>
-              <span>TAP HERE</span>
-            </article>
-            <article>
-              <span class="menu-icon icon-connect"></span>
-              <b>友人への紹介</b>
-              <span>TAP HERE</span>
-            </article>
-            <article>
-              <span class="menu-icon icon-instagram"></span>
-              <b>Instagram</b>
-              <span>TAP HERE</span>
-            </article>
-          </div>
-        </div>
-
-        <a class="main-cta" href="https://lin.ee/QAYDAs8">
-          <span class="cta-compass" aria-hidden="true"></span>
-          <span class="line-mark">LINE</span>
-          <span>
-            <b>招待を受け取る</b>
-            <small>入会無料・月会費なし<br />LINEで先行案内</small>
-          </span>
-          <i aria-hidden="true">›››</i>
-        </a>
-      </section>
-
-      <section class="section empathy" aria-labelledby="empathy-title">
-        <div class="section-copy">
-          <p class="section-label">01 / 共感</p>
-          <h2 id="empathy-title">業界の未来を、<br /><strong>ホンネで話せる</strong><br />仲間はいますか？</h2>
-          <p>
-            SNSでは情報は流れてくる。けれど、同じ時代を生きる薬剤師が何を考え、
-            どんな未来を見ているのかまでは分からない。
+        <div class="hero__copy">
+          <p class="hero__eyebrow">業界の未来を、ホンネで話せる仲間はいますか？</p>
+          <h1 id="hero-title">
+            <span>同じ時代を</span>
+            <span>生きる薬剤師と、</span>
+            <strong>
+              <span>本気で語れる</span>
+              <span>場所を。</span>
+            </strong>
+          </h1>
+          <p class="hero__lead">
+            職場では出会えない同世代とつながり、業界の未来やキャリアについて本音で語り合える場所です。
           </p>
-          <p>ファーマコンパスは、職場の外で本音を交わせる若手薬剤師のための招待制コミュニティです。</p>
         </div>
-        <div class="pain-list">
-          <span data-icon="people">職場以外の<br />つながりが少ない</span>
-          <span data-icon="chat">本音や現場感が<br />見えない</span>
-          <span data-icon="book">勉強会は少し<br />ハードルが高い</span>
-          <span data-icon="think">このままでいいのか、<br />ふと思う</span>
+
+        <div class="hero__notice">
+          <span aria-hidden="true">i</span>
+          <p>元厚労省関係者や業界の経営者が続々と登壇予定！</p>
+        </div>
+
+        <a class="cta cta--hero" href="https://lin.ee/QAYDAs8" aria-label="ファーマコンパス公式LINEで招待を受け取る">
+          <span class="cta__line">LINE</span>
+          <span class="cta__body">
+            <b>招待を受け取る</b>
+            <small>入会無料・月会費なし / LINEで先行案内</small>
+          </span>
+          <span class="cta__arrow" aria-hidden="true">›</span>
+        </a>
+
+        <div class="line-preview" aria-label="ファーマコンパス公式LINEで受け取れるもの">
+          <p>公式LINEでつながると</p>
+          <div>
+            <article>
+              <span class="mini-icon mini-icon--talk"></span>
+              <b>セミナー</b>
+              <small>未来を考えるライブ企画</small>
+            </article>
+            <article>
+              <span class="mini-icon mini-icon--people"></span>
+              <b>イベント</b>
+              <small>同世代と語れる場</small>
+            </article>
+            <article>
+              <span class="mini-icon mini-icon--phone"></span>
+              <b>先行案内</b>
+              <small>新着情報をLINEで受信</small>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section about" aria-labelledby="about-title">
-        <div>
-          <p class="section-label">02 / ファーマコンパスとは</p>
-          <h2 id="about-title">若手薬剤師のための、<br /><strong>招待制未来予測コミュニティ。</strong></h2>
-          <p>職場では出会えない同世代とつながり、業界の未来やキャリアについて本音で語り合える場所です。</p>
+      <section class="section section--empathy" aria-labelledby="empathy-title">
+        <p class="section__number">01 / 共感</p>
+        <div class="section__grid">
+          <div>
+            <h2 id="empathy-title">
+              <span>業界の未来を、</span>
+              <strong>ホンネで話せる</strong>
+              <span>仲間はいますか？</span>
+            </h2>
+            <p>
+              SNSでは情報は流れてくる。けれど、同じ時代を生きる薬剤師が何を考え、
+              どんな未来を見ているのかまでは分からない。
+            </p>
+            <p>ファーマコンパスは、職場の外で本音を交わせる若手薬剤師のための招待制コミュニティです。</p>
+          </div>
+          <div class="pain-list">
+            <span>職場以外のつながりが少ない</span>
+            <span>本音や現場感が見えない</span>
+            <span>勉強会は少しハードルが高い</span>
+            <span>このままでいいのか、ふと思う</span>
+          </div>
         </div>
-        <div class="free-seal">入会無料<br /><span>/</span><br />月会費なし</div>
-        <div class="experience-grid">
+      </section>
+
+      <section class="section section--about" aria-labelledby="about-title">
+        <p class="section__number">02 / ファーマコンパスとは</p>
+        <div class="section__head">
+          <h2 id="about-title">若手薬剤師のための、<br /><strong>招待制未来予測コミュニティ。</strong></h2>
+          <div class="free-badge">入会無料<br /><span>月会費なし</span></div>
+        </div>
+        <p class="section__intro">
+          職場では出会えない同世代とつながり、業界の未来やキャリアについて本音で語り合える場所です。
+        </p>
+        <div class="feature-grid">
           <article>
-            <span class="experience-icon icon-community"></span>
+            <span class="feature-icon feature-icon--line"></span>
             <b>コミュニティに属する</b>
             <p>公式LINEでイベント情報や先行案内を受け取る</p>
           </article>
           <article>
-            <span class="experience-icon icon-mic"></span>
+            <span class="feature-icon feature-icon--mic"></span>
             <b>セミナーを聞く</b>
             <p>業界の未来を考えるライブ企画に参加</p>
           </article>
           <article>
-            <span class="experience-icon icon-table"></span>
+            <span class="feature-icon feature-icon--table"></span>
             <b>オフ会で語る</b>
             <p>同世代の薬剤師とリアルに話す</p>
           </article>
         </div>
       </section>
 
-      <section class="section future" aria-labelledby="future-title">
-        <p class="section-label">03 / 未来を知る</p>
+      <section class="section section--future" aria-labelledby="future-title">
+        <p class="section__number">03 / 未来を知る</p>
         <h2 id="future-title">業界の<strong>最前線</strong>にふれる、<br />ライブ企画を構想中。</h2>
-        <p class="guest-note small">元厚労省関係者や業界の経営者が続々と登壇予定！</p>
-        <p>登壇者・テーマは順次公開予定です。</p>
-        <div class="stage-visual" aria-hidden="true">
-          <div class="speaker"></div>
-          <div class="audience"></div>
+        <div class="future-card">
+          <p>元厚労省関係者や業界の経営者が続々と登壇予定！</p>
+          <small>登壇者・テーマは順次公開予定です。</small>
         </div>
         <div class="theme-grid">
           <span>業界10年後マップ</span>
@@ -164,27 +155,23 @@
         </div>
       </section>
 
-      <section class="section closing" aria-labelledby="closing-title">
-        <p class="section-label">04 / 安心して参加できます</p>
-        <h2 id="closing-title">まずはLINEで、招待を受け取る。</h2>
-        <p>入会無料。月会費なし。合わなければ、いつでもLINEブロックで退会できます。</p>
-        <div class="phone-visual" aria-hidden="true">
-          <span>LINE</span>
-        </div>
+      <section class="section section--safe" aria-labelledby="safe-title">
+        <p class="section__number">04 / 安心して参加できます</p>
+        <h2 id="safe-title">まずはLINEで、<br /><strong>招待を受け取る。</strong></h2>
+        <p class="section__intro">入会無料。月会費なし。合わなければ、いつでもLINEブロックで退会できます。</p>
         <div class="safe-grid">
-          <span>入会無料<br /><small>登録だけなら費用はかかりません</small></span>
-          <span>月会費なし<br /><small>興味のある企画だけ参加できます</small></span>
-          <span>いつでも退会OK<br /><small>LINEブロックで完了</small></span>
-          <span>本名・所属は任意<br /><small>公開したい人だけで大丈夫です</small></span>
+          <span>入会無料<small>登録だけなら費用はかかりません</small></span>
+          <span>月会費なし<small>興味のある企画だけ参加できます</small></span>
+          <span>いつでも退会OK<small>LINEブロックで完了</small></span>
+          <span>本名・所属は任意<small>公開したい人だけで大丈夫です</small></span>
         </div>
-        <a class="main-cta bottom" href="https://lin.ee/QAYDAs8">
-          <span class="cta-compass" aria-hidden="true"></span>
-          <span class="line-mark">LINE</span>
-          <span>
+        <a class="cta cta--bottom" href="https://lin.ee/QAYDAs8" aria-label="ファーマコンパス公式LINEで招待を受け取る">
+          <span class="cta__line">LINE</span>
+          <span class="cta__body">
             <b>招待を受け取る</b>
-            <small>ファーマコンパス公式LINEで<br />先行案内を受け取れます</small>
+            <small>ファーマコンパス公式LINEで先行案内</small>
           </span>
-          <i aria-hidden="true">›››</i>
+          <span class="cta__arrow" aria-hidden="true">›</span>
         </a>
       </section>
     </main>
